@@ -4,7 +4,7 @@
 
 // COmmand Line Arguments
 
-int main(int argc, char argv[]) {
+int main(int argc, char** argv[]) {
     // printf("hello %s\n", argv[1]);
 
     if (argc !=2) {
