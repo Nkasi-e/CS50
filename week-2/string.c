@@ -6,7 +6,7 @@ int main(void) {
     // char c1 = 'H';
     // char c2 = 'L';
     // char c3 = 'I';
-    char s[3] = "HLI";
+    char *s = "HLI";
 
     // printf("%c%c%c\n", c1, c2, c3);
     //  printf("%i %i %c\n", c1, c2, c3);

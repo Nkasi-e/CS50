@@ -19,8 +19,8 @@ int main(void) {
     // return 1;
 
     // LINEAR SEARCH WITH STRINGS
-    char** strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "lobster"};
-    char s[250];
+    char *strings[] = {"battleship", "boot", "cannon", "iron", "thimble", "lobster"};
+    char *s;
     printf("String: ");
     scanf("%s", &s);
     for (char i = 0; i < strlen(strings); i++) {

@@ -2,7 +2,7 @@
 #include <string.h> // string header
 
 int main(void) {
-    char name[256];
+    char *name;
     printf("What's your name? ");
     scanf("%s", &name);
 

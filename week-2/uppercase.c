@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main(void) {
-    char s[250];
+    char *s;
     printf("Before: ");
     scanf("%s", &s);
     printf("After: ");

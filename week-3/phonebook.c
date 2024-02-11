@@ -4,8 +4,8 @@
 // The struct is used to create a custom data type
 
 typedef struct {
-    char name;
-    char number;
+    char *name;
+    char *number;
     int age;
 }
 person;
