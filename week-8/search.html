@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="index.js">
+      // the .value allows for the accessing of the content in the attribute of an html tag
+      //   function greet() {
+      //     let name = document.querySelector("#name").value;
+      //     alert("hello, " + name);
+      //   }
+
+      /**
+       * Script code can be added at the bottom or in the head.. but the script at the head get an eventlistener called DOMContedLoaded and a callback function to be able to load the html code before running the javascript code
+       */
+
+      //   document.addEventListener("DOMContentLoaded", () => {
+      //     document.querySelector("form").addEventListener("submit", (event) => {
+      //       let name = document.querySelector("#name").value;
+      //       alert("hello, " + name);
+      //       event.preventDefault();
+      //     });
+      //   });
+    </script>
+    <title>search</title>
+  </head>
+  <body>
+    <!-- The return false prevents the form from submitting allowing javascript the total control of it: code: onsubmit="greet(); return false;" -->
+    <form action="url you want the form to be submitted" method="get">
+      <!-- <input
+        autocomplete="off"
+        type="search"
+        name="q"
+        placeholder="Query"
+        autofocus
+      />
+      <input type="submit" value="Button search" /> -->
+      <input
+        autocomplete="off"
+        type="text"
+        name="q"
+        placeholder="Name"
+        autofocus
+        id="name"
+      />
+      <button type="submit">Greet</button>
+    </form>
+
+    <!-- Script code can be added at the bottom or in the head.. but the script at the head get an eventlistener called DOMContedLoaded and a callback function to be able to load the html code before running the javascript code -->
+
+    <!-- <script>
+      // the .value allows for the accessing of the content in the attribute of an html tag
+      //   function greet() {
+      //     let name = document.querySelector("#name").value;
+      //     alert("hello, " + name);
+      //   }
+      document.querySelector("form").addEventListener("submit", (event) => {
+        let name = document.querySelector("#name").value;
+        alert("hello, " + name);
+        event.preventDefault();
+      });
+    </script> -->
+  </body>
+</html>
